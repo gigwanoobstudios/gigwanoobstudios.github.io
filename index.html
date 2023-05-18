@@ -20,63 +20,7 @@
      crossorigin="anonymous"></script>
 	<meta name="google-site-verification" content="IIgNbWsWzZy_wmbYZD1tULdntHNBg53XOGw1JifK37A" />
 	
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
 
-    h1 {
-      font-family: 'Arial', sans-serif;
-      font-size: 48px;
-      color: #fff;
-      text-align: center;
-      opacity: 0;
-      animation: fadeIn 1s forwards;
-      animation-delay: 2s;
-      text-shadow: 0 0 4px white;
-    }
-
-    @keyframes fadeIn {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-
-    @keyframes fadeOut {
-      0% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
-  </style>
-</head>
-<body>
-  <h1>Welcome!</h1>
-  <script>
-    window.addEventListener('load', function() {
-      var heading = document.querySelector('h1');
-      setTimeout(function() {
-        document.body.style.overflow = 'visible';
-        heading.style.animationName = 'fadeOut';
-        heading.style.animationDuration = '1s';
-        heading.style.animationFillMode = 'forwards';
-        heading.style.animationDelay = '0s';
-      }, 5000);
-    });
-  </script>
-</body>
-</html>
 
 	<!-- Custom CSS -->
 	<style type="text/css">
